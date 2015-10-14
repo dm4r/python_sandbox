@@ -56,7 +56,7 @@
 #               "Moe"  : "bowl cut"}
 >>>
 
-# Access one element using the name of a key
+# Access an element using the name of a key
 >>>
 
 # Get all of the keys, get all of the values, confirm the existence
