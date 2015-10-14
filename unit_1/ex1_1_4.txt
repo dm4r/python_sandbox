@@ -1,0 +1,68 @@
+# EXERCISE FOR LISTS
+# Define a list
+>>>
+# Select a range between index 1 and 3 (closed/open range, in math terms)
+>>>
+
+# Omit the beginning or end
+>>>
+>>>
+# Select every second entry (i.e. step by 2)
+>>>
+# Reverse the list
+>>>
+# Note the syntax for the above is: li[start:end:step]
+# Delete the 3rd item
+>>>
+>>>
+# Check if 1 is in the list
+>>>
+
+# What's the length of the list li?
+>>>
+
+# EXERCISE FOR TUPLES
+# Define a tuple
+>>>
+# Append to the tuple (note the error)
+>>>
+
+# Create a new tuple combining the original and new values
+>>>
+
+# EXERCISE FOR SETS
+# Define a new set
+>>>
+
+# Print the set
+>>>
+
+# Demonstrate a set intersection
+>>>
+
+# Demonstrate a set union
+>>>
+
+# Demonstrate a set difference
+>>>
+
+# Demonstrate value existence within a set
+>>>
+
+# EXERCISE FOR DICTIONARIES
+# Define a dictionary (example of syntax below)
+# stooges = {"Larry": "balding, with frazzled hair",
+#               "Curly": "short buzz-cut",
+#               "Moe"  : "bowl cut"}
+>>>
+
+# Access one element using the name of a key
+>>>
+
+# Get all of the keys, get all of the values, confirm the existence
+>>>
+>>>
+>>>
+
+# Use get() to lookup a key without an error
+>>>

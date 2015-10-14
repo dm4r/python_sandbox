@@ -1,0 +1,69 @@
+# EXERCISE FOR LISTS
+# Define a list
+>>> list = [1, 2, 3, 4, 5]
+# Select a range between index 1 and 3 (closed/open range, in math terms)
+>>> list[1:3]
+
+# Omit the beginning or end
+>>> list[2:]
+>>> list[:3]
+# Select every second entry (i.e. step by 2)
+>>> list[::2]
+# Reverse the list
+>>> list[::-1]
+# Note the syntax for the above is: li[start:end:step]
+# Delete the 3rd item
+>>> del list[3]
+>>> print list
+# Check if 1 is in the list
+>>> 1 in list
+
+# What's the length of the list li?
+>>> len(list)
+
+# EXERCISE FOR TUPLES
+# Define a tuple
+>>> tuple = (1, 2, 3, 4, 5)
+# Append to the tuple (note the error)
+>>> tuple.append(6, 7, 8, 9, 10)
+
+# Create a new tuple combining the original and new values
+>>> new_tuple = tuple + (6, 7, 8, 9, 10)
+
+# EXERCISE FOR SETS
+# Define a new set
+>>> set = {1, 3, 5, 22, 9}
+# alternitavely set(1, 3, 5,)
+
+# Print the set
+>>> set
+
+# Demonstrate a set intersection
+>>> your_set = {15,16, 17}
+>>> set & your_set
+
+# Demonstrate a set union - combines the two into one
+>>> set | your_set
+
+# Demonstrate a set difference
+>>> set - you_set
+
+# Demonstrate value existence within a set
+>>> 1 in set
+
+# EXERCISE FOR DICTIONARIES
+# Define a dictionary (example of syntax below)
+# stooges = {"Larry": "balding, with frazzled hair",
+#               "Curly": "short buzz-cut",
+#               "Moe"  : "bowl cut"}
+
+# Access one element using the name of a key
+>>> stooges
+
+# Get all of the keys, get all of the values, confirm the existence
+>>> stooges.keys()
+>>> stooges.values()
+>>> "Larry" in stooges
+
+# Use get() to lookup a key without an error
+>>> stooges.get("Shemp")
