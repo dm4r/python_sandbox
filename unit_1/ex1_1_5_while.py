@@ -24,7 +24,7 @@ mph_to_leicester = 1
 # Set meet point stating "it's True, the miles traveled values DO NOT match
 meet_point = True
 
-# The while statement will continue while this 
+# The while statement will continue while this
 # resolves to True.  As soon as it is False, then the while loop will stop.
 while meet_point:
 #   if the two values DO NOT match, then continue the loop
